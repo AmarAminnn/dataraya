@@ -24,7 +24,7 @@ import MiniChart from '../components/MiniChart.vue'
 import TickerTape from '../components/TickerTape.vue'
 import Screener from '../components/Screener.vue'
 import News from '../components/News.vue'
-
+import TableuTest from '../components/TableuTest.vue'
 export default {
   components: {
     MainChart,
@@ -32,7 +32,11 @@ export default {
     TickerTape,
     Screener,
     News,
+    TableuTest,
 
+  },
+  mounted() {
+    document.title = 'DataRaya'
   }
 }
 </script>

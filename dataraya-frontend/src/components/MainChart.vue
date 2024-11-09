@@ -1,7 +1,7 @@
 <template>
     <v-container fluid>
         <h2>Main Chart</h2>
-        <div class="tradingview-widget-container" style="height:100%;width:100%">
+        <div class="tradingview-widget-container" style="height:600px;width:100%">
             <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
             <div class="tradingview-widget-copyright">
                 <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .tradingview-widget-container {
-    height: 100%;
+    height: 600px !important;
     width: 100%;
 }
 </style>
