@@ -13,6 +13,7 @@
     <MiniChart />
     <Screener />
     <News />
+    <TableuTest />
   </v-container>
 </template>
 
