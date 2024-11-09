@@ -13,6 +13,7 @@ declare module 'vue' {
     MainChart: typeof import('./components/MainChart.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TableuTest: typeof import('./components/TableuTest.vue')['default']
     TickerTape: typeof import('./components/TickerTape.vue')['default']
   }
 }

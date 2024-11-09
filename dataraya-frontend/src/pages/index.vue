@@ -2,6 +2,7 @@
   <v-container>
     <TickerTape />
     <MainChart />
+    <TableuTest />
   </v-container>
 </template>
 
