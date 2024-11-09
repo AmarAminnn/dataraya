@@ -10,6 +10,7 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    MainChart: typeof import('./components/MainChart.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TickerTape: typeof import('./components/TickerTape.vue')['default']
