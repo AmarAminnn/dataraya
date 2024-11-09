@@ -21,16 +21,11 @@
         <News />
       </v-col>
     </v-row>
-
-
-
-
-    <!-- <TickerTape />
-    <MainChart />
-    <MiniChart />
-    <Screener />
-    <News />
-    <TableuTest /> -->
+    <v-row>
+      <v-col cols="12">
+        <TableuEmbed />
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -40,7 +35,8 @@ import MiniChart from '../components/MiniChart.vue'
 import TickerTape from '../components/TickerTape.vue'
 import Screener from '../components/Screener.vue'
 import News from '../components/News.vue'
-import TableuTest from '../components/TableuTest.vue'
+import TableuEmbed from '../components/TableuEmbed.vue'
+
 export default {
   components: {
     MainChart,
@@ -48,8 +44,7 @@ export default {
     TickerTape,
     Screener,
     News,
-    TableuTest,
-
+    TableuEmbed
   },
   mounted() {
     document.title = 'DataRaya'
