@@ -1,12 +1,9 @@
 <template>
   <v-card outlined class="tradingview-widget-container">
+    <h2>Ticker Tape</h2>
     <div class="tradingview-widget-container__widget"></div>
     <div class="tradingview-widget-copyright">
-      <a
-        href="https://www.tradingview.com/"
-        rel="noopener nofollow"
-        target="_blank"
-      >
+      <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
       </a>
     </div>
   </v-card>
@@ -50,6 +47,7 @@ export default {
 .tradingview-widget-container {
   padding: 16px;
 }
+
 .blue-text {
   color: #2962ff;
 }

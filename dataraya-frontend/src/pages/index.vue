@@ -14,6 +14,7 @@
     <Screener />
     <News />
     <TableuTest />
+
   </v-container>
 </template>
 
@@ -23,6 +24,7 @@ import MiniChart from '../components/MiniChart.vue'
 import TickerTape from '../components/TickerTape.vue'
 import Screener from '../components/Screener.vue'
 import News from '../components/News.vue'
+
 export default {
   components: {
     MainChart,
@@ -30,6 +32,7 @@ export default {
     TickerTape,
     Screener,
     News,
+
   }
 }
 </script>

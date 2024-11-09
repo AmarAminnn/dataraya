@@ -1,10 +1,11 @@
 <template>
     <v-container fluid>
+        <h2>News</h2>
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright">
                 <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-                    <span class="blue-text">Track all markets on TradingView</span>
+                    <span class="blue-text"></span>
                 </a>
             </div>
         </div>

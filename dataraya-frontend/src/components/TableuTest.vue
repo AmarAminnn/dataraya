@@ -1,5 +1,6 @@
 <template>
   <v-card outlined class="tableauPlaceholder" :id="vizId" style="position: relative">
+    <h2>Tableau Test</h2>
     <noscript>
       <a :href="dashboardUrl">
         <img :alt="altText" :src="staticImage" style="border: none" />
