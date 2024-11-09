@@ -1,11 +1,15 @@
 <template>
     <v-container fluid>
-        <h2>Screener</h2>
+        <v-row justify="center">
+            <v-col cols="12" class="text-center">
+                <h2>Screener</h2>
+            </v-col>
+        </v-row>
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright">
                 <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-                    <span class="blue-text"></span>
+                    <span class="blue-text">Track all markets on TradingView</span>
                 </a>
             </div>
         </div>

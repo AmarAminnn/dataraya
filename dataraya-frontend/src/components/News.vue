@@ -1,6 +1,10 @@
 <template>
     <v-container fluid>
-        <h2>News</h2>
+        <v-row justify="center">
+            <v-col cols="12" class="text-center">
+                <h2>News</h2>
+            </v-col>
+        </v-row>
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright">

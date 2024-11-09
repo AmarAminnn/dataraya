@@ -1,20 +1,36 @@
 <template>
   <v-container>
-    <TickerTape />
-    <!-- <v-row>
-      <v-col cols="8">
+    <v-row>
+      <v-col cols="12">
+        <TickerTape />
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12">
         <MainChart />
-      </v-col>git p
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="4" style="padding: 20px;">
+        <Screener />
+      </v-col>
       <v-col cols="4">
         <MiniChart />
       </v-col>
-    </v-row> -->
+      <v-col cols="4">
+        <News />
+      </v-col>
+    </v-row>
+
+
+
+
+    <!-- <TickerTape />
     <MainChart />
     <MiniChart />
     <Screener />
     <News />
-    <TableuTest />
-
+    <TableuTest /> -->
   </v-container>
 </template>
 
